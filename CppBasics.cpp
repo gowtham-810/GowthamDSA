@@ -70,3 +70,23 @@ int main() {
 
     return 0;
 }
+
+
+//Concatenating firstName and lastName and printing n times
+#include <iostream>
+using namespace std;
+
+int main() {
+    string firstName,lastName;
+    int n;
+    
+    cin>>firstName>>lastName;
+    cin>>n;
+    for(int i=0;i<n;i++){
+          cout<<firstName+lastName<<endl;
+        
+    }
+    
+
+    return 0;
+}
