@@ -90,3 +90,42 @@ int main() {
 
     return 0;
 }
+
+
+//Loop
+#include <iostream>
+using namespace std;
+
+int main() {
+     
+    int x;
+    cin>>x;
+    int i=1;
+    int y=x*i;
+    while(y<=1000){
+        cout<<y<<endl;
+        i++;
+         y=x*i;
+
+        
+    }
+
+    return 0;
+}
+
+
+//Print X number Y times
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x,y;
+    cin>>x>>y;
+     
+    for(int i=1;i<=y;i++){
+        cout<<x<<endl;
+        
+    }
+
+    return 0;
+}
